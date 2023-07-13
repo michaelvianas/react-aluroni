@@ -6,14 +6,14 @@ export default function Menu() {
   const rotas = [{
     label: 'Início',
     to: '/'
-  },{
+  }, {
     label: 'Cardápio',
     to: '/cardapio'
-  },{
+  }, {
     label: 'Sobre',
     to: '/sobre'
   }];
-  return(
+  return (
     <nav className={styles.menu}>
       <Logo />
       <ul className={styles.menu__list}>
